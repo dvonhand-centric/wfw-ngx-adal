@@ -1,5 +1,5 @@
 {
-  "name": "ng2-adal",
+  "name": "wfw-ngx-adal",
   "version": "2.0.0",
   "description": "Use Azure AD Library - ADAL in Angular 4 & 2. For Angular 4, use latest version 1.x.x. For Angular 2 use 0.3.1 version.",
   "repository": {
@@ -35,16 +35,16 @@
     "gulp": "gulp"
   },
   "dependencies": {
-    "@angular/common": "^4.1.0",
-    "@angular/compiler": "^4.1.0",
-    "@angular/core": "^4.1.0",
-    "@angular/http": "^4.1.0",
-    "@angular/platform-browser": "^4.1.0",
-    "@types/adal": "^1.0.22",
-    "adal-angular": "^1.0.14",
-    "reflect-metadata": "^0.1.8",
-    "rxjs": "^5.0.3",
-    "zone.js": "^0.8.11"
+    "@angular/common": "5.0.1",
+    "@angular/compiler": "5.0.1",
+    "@angular/core": "5.0.1",
+    "@angular/http": "5.0.1",
+    "@angular/platform-browser": "5.0.1",
+    "@types/adal": "1.0.29",
+    "adal-angular": "1.0.15",
+    "reflect-metadata": "0.1.10",
+    "rxjs": "5.5.2",
+    "zone.js": "0.8.18"
   },
   "devDependencies": {
     "del": "^2.2.0",
@@ -62,7 +62,7 @@
     "require-dir": "^0.3.0",
     "run-sequence": "^1.2.1",
     "systemjs-builder": "^0.16.3",
-    "typescript": "^2.3.3",
+    "typescript": "2.4.2",
     "typings": "^1.5.0"
   }
 }
