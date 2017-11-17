@@ -1,28 +1,28 @@
 declare module 'adal-angular' {
-    export function inject(config: adal.Config): adal.AuthenticationContext;
+	export function inject(config: adal.Config): adal.AuthenticationContext;
 }
 
 declare namespace adal {
-    interface AuthenticationContext {
-        REQUEST_TYPE: {
-            LOGIN: string,
-            RENEW_TOKEN: string,
-            UNKNOWN: string
-        };
+	interface AuthenticationContext {
+		REQUEST_TYPE: {
+			LOGIN: string,
+			RENEW_TOKEN: string,
+			UNKNOWN: string
+		};
 
-        callback : any;
+		callback: any;
 
-        _getItem : any;
+		_getItem: any;
 
-        _renewFailed : any;
+		_renewFailed: any;
 
-        CONSTANTS : any;
-    }
+		CONSTANTS: any;
+	}
 
 }
 
 interface Window {
-    AuthenticationContext : any;
-    callBackMappedToRenewStates : any;
+	AuthenticationContext: any;
+	callBackMappedToRenewStates: any;
 }
 
