@@ -7,3 +7,5 @@ src/**/*.js
 src/**/*.map
 .tmp
 test-built
+.vscode
+.idea
