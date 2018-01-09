@@ -100,18 +100,15 @@ export class AdalService {
 	public acquireToken(resource: string) {
 		let _this = this;
 		return Observable.create((subscriber: Subscriber<any>) => {
-			let s: string = '';
 			_this.adalContext.acquireToken(resource, (error: string, tokenOut: string) => {
 				if (error) {
 					_this.adalContext.error('Error when acquiring token for resource: ' + resource, error);
 					subscriber.error(error);
 				} else {
 					subscriber.next(tokenOut);
-					s = tokenOut;
 				}
 				subscriber.complete();
 			});
-			return s;
 		});
 	}
 
