@@ -1,10 +1,10 @@
 {
-  "name": "wfw-ngx-adal",
+  "name": "wfw-ngx-adal-observable",
   "version": "2.0.4",
   "description": "Use Azure AD Library - ADAL in Angular 5",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/genna/wfw-ngx-adal.git"
+    "url": "git+https://github.com/dvonhand-centric/wfw-ngx-adal.git"
   },
   "keywords": [
     "angular2",
@@ -25,9 +25,9 @@
   "author": "Suresh Chahal",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/genna/wfw-ngx-adal/issues"
+    "url": "https://github.com/dvonhand-centric/wfw-ngx-adal/issues"
   },
-  "homepage": "https://github.com/genna/wfw-ngx-adal",
+  "homepage": "https://github.com/dvonhand-centric/wfw-ngx-adal",
   "engines": {
     "node": ">=5.0.0"
   },
@@ -43,10 +43,10 @@
   },
   "devDependencies": {
     "@angular/common": "5.1.0",
+    "@angular/compiler": "5.1.0",
     "@angular/core": "5.1.0",
     "@angular/http": "5.1.0",
     "@angular/platform-browser": "5.1.0",
-    "@angular/compiler": "5.1.0",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-git": "^1.8.0",
@@ -62,10 +62,10 @@
     "reflect-metadata": "0.1.10",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.2.1",
+    "rxjs": "5.5.2",
     "systemjs-builder": "^0.16.3",
     "typescript": "2.4.2",
     "typings": "^1.5.0",
-    "rxjs": "5.5.2",
     "zone.js": "0.8.18"
   }
 }
